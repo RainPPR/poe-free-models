@@ -1,6 +1,7 @@
 name: Update Free Models List
 
 on:
+  push:
   schedule:
     # 每周一 UTC 时间 00:00 运行
     - cron: '0 0 * * 1'
@@ -28,20 +29,17 @@ jobs:
       - name: Generate CSV
         run: uv run python json_to_csv.py
 
-      - name: Check for changes
-        id: check-changes
-        run: |
-          if git diff --quiet free_models.json free_models.csv; then
-            echo "changed=false" >> $GITHUB_OUTPUT
-          else
-            echo "changed=true" >> $GITHUB_OUTPUT
-          fi
+      - name: Generate AI SDK config
+        run: uv run python generate_ai_sdk_config.py
 
-      - name: Commit and push changes
-        if: steps.check-changes.outputs.changed == 'true'
+      - name: Check for changes and commit
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add free_models.json free_models.csv
-          git commit -m "chore: update free models list [$(date -u +%Y-%m-%d)]"
-          git push
+          git add free_models.json free_models.csv free_models_ai_sdk.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update free models list [$(date -u +%Y-%m-%d)]"
+            git push
+          fi

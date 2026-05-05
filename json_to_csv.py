@@ -17,8 +17,8 @@ def extract_models_to_csv(json_path: Path, csv_path: Path) -> None:
     for model in models:
         model_id = model.get("id", "")
         provider = model.get("owned_by", "")
-        metadata = model.get("metadata", {})
         context_length = model.get("context_length", 0)
+        metadata = model.get("metadata", {})
         name = metadata.get("display_name", model_id)
 
         rows.append({
@@ -32,7 +32,7 @@ def extract_models_to_csv(json_path: Path, csv_path: Path) -> None:
     rows.sort(key=lambda x: x["name"].lower())
 
     with open(csv_path, "w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=["name", "id", "provider"])
+        writer = csv.DictWriter(f, fieldnames=["name", "id", "provider", "context_length"])
         writer.writeheader()
         writer.writerows(rows)
 

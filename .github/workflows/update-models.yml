@@ -1,0 +1,47 @@
+name: Update Free Models List
+
+on:
+  schedule:
+    # 每周一 UTC 时间 00:00 运行
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+
+jobs:
+  update-models:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Fetch free models
+        run: uv run python main.py
+
+      - name: Generate CSV
+        run: uv run python json_to_csv.py
+
+      - name: Check for changes
+        id: check-changes
+        run: |
+          if git diff --quiet free_models.json free_models.csv; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check-changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add free_models.json free_models.csv
+          git commit -m "chore: update free models list [$(date -u +%Y-%m-%d)]"
+          git push

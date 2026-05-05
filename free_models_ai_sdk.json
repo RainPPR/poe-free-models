@@ -1,0 +1,27 @@
+{
+  "poe-custom": {
+    "name": "Poe",
+    "npm": "@ai-sdk/openai-compatible",
+    "options": {
+      "baseURL": "https://api.poe.com/v1"
+    },
+    "models": {
+      "gemma-4-31b": {
+        "name": "Gemma-4-31B (Free)",
+        "reasoning": false
+      },
+      "gemma-4-31b-reasoning": {
+        "name": "Gemma-4-31B Reasoning (Free)",
+        "reasoning": true
+      },
+      "kimi-k2.5-fw": {
+        "name": "Kimi-K2.5-FW (Free)",
+        "reasoning": false
+      },
+      "kimi-k2.5-fw-reasoning": {
+        "name": "Kimi-K2.5-FW Reasoning (Free)",
+        "reasoning": true
+      }
+    }
+  }
+}

@@ -1,0 +1,267 @@
+[
+  {
+    "id": "gemma-4-31b",
+    "object": "model",
+    "created": 1775161622456,
+    "description": "Google's most capable open model, delivering frontier-class reasoning and multimodal understanding in a 31 billion parameter dense architecture. Gemma 4 supports a 256K token context window, understands over 140 languages, and accepts both text and image inputs. It features built-in chain-of-thought reasoning for complex multi-step tasks, strong coding and math performance, and function calling support. Released under the Apache 2.0 license, Gemma 4 31B offers competitive performance with leading proprietary models while being fully open-weight. This bot may experience degraded performance due to high traffic to this model.",
+    "owned_by": "Google",
+    "root": "gemma-4-31b",
+    "architecture": {
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "modality": "text,image->text"
+    },
+    "supported_features": [
+      "tools"
+    ],
+    "supported_endpoints": [
+      "/v1/responses",
+      "/v1/chat/completions",
+      "/v1/messages"
+    ],
+    "pricing": {
+      "prompt": null,
+      "completion": null,
+      "image": null,
+      "request": "0.00",
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "context_window": {
+      "context_length": 262144,
+      "max_output_tokens": 8192
+    },
+    "context_length": 262144,
+    "metadata": {
+      "display_name": "Gemma-4-31B",
+      "image": {
+        "url": "https://qph.cf2.poecdn.net/main-thumb-pb-6030-200-wkjlyhtvpgcrxgyvbunnepjymkoatazd.jpeg",
+        "alt": "Gemma-4-31B model icon",
+        "width": 200,
+        "height": 200
+      },
+      "url": "https://poe.com/gemma-4-31b"
+    },
+    "reasoning": null,
+    "parameters": [],
+    "updated_at": "2026-05-05T13:13:59.738667+00:00"
+  },
+  {
+    "id": "qwen3.5-397b-a17b-t",
+    "object": "model",
+    "created": 1771354710620,
+    "description": "Over recent months, we have intensified our focus on developing foundation models that deliver exceptional utility and performance. Qwen3.5 represents a significant leap forward, integrating breakthroughs in multimodal learning, architectural efficiency, reinforcement learning scale, and global accessibility to empower developers and enterprises with unprecedented capability and efficiency.\n\nQwen3.5 features the following enhancement:\n\nUnified Vision-Language Foundation: Early fusion training on multimodal tokens achieves cross-generational parity with Qwen3 and outperforms Qwen3-VL models across reasoning, coding, agents, and visual understanding benchmarks.\n\nEfficient Hybrid Architecture: Gated Delta Networks combined with sparse Mixture-of-Experts deliver high-throughput inference with minimal latency and cost overhead.\n\nScalable RL Generalization: Reinforcement learning scaled across million-agent environments with progressively complex task distributions for robust real-world adaptability.\n\nGlobal Linguistic Coverage: Expanded support to 201 languages and dialects, enabling inclusive, worldwide deployment with nuanced cultural and regional understanding.\n\nNext-Generation Training Infrastructure: Near-100% multimodal training efficiency compared to text-only training and asynchronous RL frameworks supporting massive-scale agent scaffolds and environment orchestration.",
+    "owned_by": "Together AI",
+    "root": "qwen3.5-397b-a17b-t",
+    "architecture": {
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "modality": "text->text"
+    },
+    "supported_features": [],
+    "supported_endpoints": [],
+    "pricing": {
+      "prompt": null,
+      "completion": null,
+      "image": null,
+      "request": "0.00",
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "context_window": null,
+    "context_length": null,
+    "metadata": {
+      "display_name": "Qwen3.5-397B-A17B-T",
+      "image": {
+        "url": "https://qph.cf2.poecdn.net/main-thumb-pb-6816075-200-pmjwiobbezofrhpxnsrsinlpjlfehspp.jpeg",
+        "alt": "Qwen3.5-397B-A17B-T model icon",
+        "width": 200,
+        "height": 200
+      },
+      "url": "https://poe.com/qwen3.5-397b-a17b-t"
+    },
+    "reasoning": null,
+    "parameters": [],
+    "updated_at": "2026-05-05T13:13:59.738691+00:00"
+  },
+  {
+    "id": "kimi-k2.5-fw",
+    "object": "model",
+    "created": 1769497628504,
+    "description": "Kimi K2.5 is Moonshot AI's flagship agentic model and a new SOTA open model. It unifies vision and text, thinking and non-thinking modes, and single-agent and multi-agent execution into one model.",
+    "owned_by": "Fireworks AI",
+    "root": "kimi-k2.5-fw",
+    "architecture": {
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "modality": "text,image->text"
+    },
+    "supported_features": [
+      "tools"
+    ],
+    "supported_endpoints": [],
+    "pricing": {
+      "prompt": null,
+      "completion": null,
+      "image": null,
+      "request": "0.00",
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "context_window": null,
+    "context_length": null,
+    "metadata": {
+      "display_name": "Kimi-K2.5-FW",
+      "image": {
+        "url": "https://qph.cf2.poecdn.net/main-thumb-pb-6766647-200-ditdypjluzdoyjkyttbcvgvtaprmnqfz.jpeg",
+        "alt": "Kimi-K2.5-FW model icon",
+        "width": 200,
+        "height": 200
+      },
+      "url": "https://poe.com/kimi-k2.5-fw"
+    },
+    "reasoning": null,
+    "parameters": [],
+    "updated_at": "2026-05-05T13:13:59.738699+00:00"
+  },
+  {
+    "id": "glm-5.1-t",
+    "object": "model",
+    "created": 1775682073807,
+    "description": "GLM-5.1 is Z.ai's next-generation flagship model for agentic engineering. It achieves state-of-the-art on SWE-Bench Pro and leads GLM-5 by a wide margin on NL2Repo and Terminal-Bench 2.0. The real breakthrough, though, is endurance. Previous models plateau early — they apply familiar techniques for quick gains, then stall. More time doesn't help. GLM-5.1 stays productive over far longer horizons, breaking down ambiguous problems, running experiments, reading results, and revising its strategy with real precision. Across hundreds of rounds and thousands of tool calls, it keeps optimizing. The longer it runs, the better the result.",
+    "owned_by": "Together AI",
+    "root": "glm-5.1-t",
+    "architecture": {
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "modality": "text->text"
+    },
+    "supported_features": [],
+    "supported_endpoints": [],
+    "pricing": {
+      "prompt": null,
+      "completion": null,
+      "image": null,
+      "request": "0.00",
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "context_window": null,
+    "context_length": null,
+    "metadata": {
+      "display_name": "GLM-5.1-T",
+      "image": {
+        "url": "https://qph.cf2.poecdn.net/main-thumb-pb-6928677-200-eguxuhpkqgoypnrtdyywoqxwmjarxsjo.jpeg",
+        "alt": "GLM-5.1-T model icon",
+        "width": 200,
+        "height": 200
+      },
+      "url": "https://poe.com/glm-5.1-t"
+    },
+    "reasoning": null,
+    "parameters": [],
+    "updated_at": "2026-05-05T13:13:59.738709+00:00"
+  },
+  {
+    "id": "gemma-4-31b-t",
+    "object": "model",
+    "created": 1775698044531,
+    "description": "Gemma 4 models are designed to deliver frontier-level performance at each size, targeting deployment scenarios on consumer GPUs and workstations. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding. Gemma 4 features a context window of up to 256K tokens and maintains multilingual support in over 140 languages.",
+    "owned_by": "Together AI",
+    "root": "gemma-4-31b-t",
+    "architecture": {
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "modality": "text->text"
+    },
+    "supported_features": [],
+    "supported_endpoints": [],
+    "pricing": {
+      "prompt": null,
+      "completion": null,
+      "image": null,
+      "request": "0.00",
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "context_window": null,
+    "context_length": null,
+    "metadata": {
+      "display_name": "Gemma-4-31B-T",
+      "image": {
+        "url": "https://qph.cf2.poecdn.net/main-thumb-pb-6928893-200-yvrkalnmcyryubzlfbjdyvtzedcdizhq.jpeg",
+        "alt": "Gemma-4-31B-T model icon",
+        "width": 200,
+        "height": 200
+      },
+      "url": "https://poe.com/gemma-4-31b-t"
+    },
+    "reasoning": null,
+    "parameters": [],
+    "updated_at": "2026-05-05T13:13:59.738712+00:00"
+  },
+  {
+    "id": "glm-5-t",
+    "object": "model",
+    "created": 1775504271719,
+    "description": "GLM-5 is an open-source foundation model built for complex systems engineering and long-horizon agent workflows. It delivers production-grade productivity in large-scale programming tasks, with performance aligned with top closed-source models, and is designed for expert developers who think and build at the system level. Purpose-built for multi-stage, long-step complex tasks, GLM-5 autonomously decomposes system-level requirements with an architect-level approach while maintaining context coherence across automated workflows that run for hours.",
+    "owned_by": "Together AI",
+    "root": "glm-5-t",
+    "architecture": {
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "modality": "text->text"
+    },
+    "supported_features": [],
+    "supported_endpoints": [],
+    "pricing": {
+      "prompt": null,
+      "completion": null,
+      "image": null,
+      "request": "0.00",
+      "input_cache_read": null,
+      "input_cache_write": null
+    },
+    "context_window": null,
+    "context_length": null,
+    "metadata": {
+      "display_name": "GLM-5-T",
+      "image": {
+        "url": "https://qph.cf2.poecdn.net/main-thumb-pb-6925185-200-iksbaresyqgccjjvhkzgjgrbqyrusrrh.jpeg",
+        "alt": "GLM-5-T model icon",
+        "width": 200,
+        "height": 200
+      },
+      "url": "https://poe.com/glm-5-t"
+    },
+    "reasoning": null,
+    "parameters": [],
+    "updated_at": "2026-05-05T13:13:59.738728+00:00"
+  }
+]

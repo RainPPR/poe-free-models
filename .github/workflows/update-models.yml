@@ -33,11 +33,14 @@ jobs:
       - name: Generate AI SDK config
         run: uv run python generate_ai_sdk_config.py
 
+      - name: Generate AI Math config
+        run: uv run python generate_ai_math_config.py
+
       - name: Check for changes and commit
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add free_models.json free_models.csv free_models_ai_sdk.json
+          git add free_models.json free_models.csv free_models_ai_sdk.json free_models_ai_math.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else

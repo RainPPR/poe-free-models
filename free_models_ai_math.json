@@ -1,0 +1,58 @@
+[
+  {
+    "id": "38cae9a5-8a17-5744-a713-3161c3da71f2",
+    "modelId": "gemma-4-31b",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Gemma-4-31B (Poe)"
+  },
+  {
+    "id": "906b12a9-7271-54e1-a7af-d9757bc10bee",
+    "modelId": "qwen3.5-397b-a17b-t",
+    "enableTools": false,
+    "disabledTools": [],
+    "displayName": "Qwen3.5-397B-A17B-T (Poe)"
+  },
+  {
+    "id": "b590ac57-34f1-5b38-ada8-0cc97fd89fb0",
+    "modelId": "kimi-k2.5-fw",
+    "enableTools": true,
+    "disabledTools": [],
+    "displayName": "Kimi-K2.5-FW (Poe)"
+  },
+  {
+    "id": "b657c5c4-ab39-5657-a244-37fac1b33a94",
+    "modelId": "glm-5.1-t",
+    "enableTools": false,
+    "disabledTools": [],
+    "displayName": "GLM-5.1-T (Poe)"
+  },
+  {
+    "id": "77fc9549-28c8-5e64-994a-b20990ea22e0",
+    "modelId": "gemma-4-31b-t",
+    "enableTools": false,
+    "disabledTools": [],
+    "displayName": "Gemma-4-31B-T (Poe)"
+  },
+  {
+    "id": "0fb6c7c8-3508-51d8-bdec-9eb7cff92e24",
+    "modelId": "glm-5-t",
+    "enableTools": false,
+    "disabledTools": [],
+    "displayName": "GLM-5-T (Poe)"
+  },
+  {
+    "id": "d9a87420-108a-5121-8ed2-bad9d75f6d9a",
+    "modelId": "pearl-gemma-4-31b",
+    "enableTools": false,
+    "disabledTools": [],
+    "displayName": "Pearl-Gemma-4-31B (Poe)"
+  },
+  {
+    "id": "b6b755ec-18e5-5aaf-b354-c6a18fea0f49",
+    "modelId": "qwen3.7-max-t",
+    "enableTools": false,
+    "disabledTools": [],
+    "displayName": "Qwen3.7-Max-T (Poe)"
+  }
+]

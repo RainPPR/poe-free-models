@@ -54,5 +54,12 @@
     "enableTools": false,
     "disabledTools": [],
     "displayName": "Qwen3.7-Max-T (Poe)"
+  },
+  {
+    "id": "75803372-dd81-579e-a7f6-394a8f0c5f3c",
+    "modelId": "minimax-m3-t",
+    "enableTools": false,
+    "disabledTools": [],
+    "displayName": "MiniMax-M3-T (Poe)"
   }
 ]

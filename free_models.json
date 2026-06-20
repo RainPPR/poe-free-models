@@ -49,7 +49,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-19T03:35:20.208614+00:00"
+    "updated_at": "2026-06-20T02:39:18.553081+00:00"
   },
   {
     "id": "qwen3.5-397b-a17b-t",
@@ -91,7 +91,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-19T03:35:20.208636+00:00"
+    "updated_at": "2026-06-20T02:39:18.553102+00:00"
   },
   {
     "id": "kimi-k2.5-fw",
@@ -136,7 +136,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-19T03:35:20.208643+00:00"
+    "updated_at": "2026-06-20T02:39:18.553108+00:00"
   },
   {
     "id": "glm-5.1-t",
@@ -178,7 +178,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-19T03:35:20.208651+00:00"
+    "updated_at": "2026-06-20T02:39:18.553116+00:00"
   },
   {
     "id": "gemma-4-31b-t",
@@ -220,7 +220,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-19T03:35:20.208654+00:00"
+    "updated_at": "2026-06-20T02:39:18.553119+00:00"
   },
   {
     "id": "glm-5-t",
@@ -262,7 +262,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-19T03:35:20.208665+00:00"
+    "updated_at": "2026-06-20T02:39:18.553131+00:00"
   },
   {
     "id": "pearl-gemma-4-31b",
@@ -304,7 +304,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-19T03:35:20.208724+00:00"
+    "updated_at": "2026-06-20T02:39:18.553190+00:00"
   },
   {
     "id": "qwen3.7-max-t",
@@ -346,7 +346,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-19T03:35:20.208726+00:00"
+    "updated_at": "2026-06-20T02:39:18.553192+00:00"
   },
   {
     "id": "minimax-m3-t",
@@ -388,6 +388,6 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-19T03:35:20.208730+00:00"
+    "updated_at": "2026-06-20T02:39:18.553196+00:00"
   }
 ]

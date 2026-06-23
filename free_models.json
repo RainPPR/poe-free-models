@@ -49,7 +49,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-22T02:58:11.059692+00:00"
+    "updated_at": "2026-06-23T02:33:25.273624+00:00"
   },
   {
     "id": "qwen3.5-397b-a17b-t",
@@ -91,7 +91,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-22T02:58:11.059712+00:00"
+    "updated_at": "2026-06-23T02:33:25.273643+00:00"
   },
   {
     "id": "kimi-k2.5-fw",
@@ -136,7 +136,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-22T02:58:11.059718+00:00"
+    "updated_at": "2026-06-23T02:33:25.273647+00:00"
   },
   {
     "id": "glm-5.1-t",
@@ -178,7 +178,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-22T02:58:11.059726+00:00"
+    "updated_at": "2026-06-23T02:33:25.273654+00:00"
   },
   {
     "id": "gemma-4-31b-t",
@@ -220,49 +220,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-22T02:58:11.059729+00:00"
-  },
-  {
-    "id": "glm-5-t",
-    "object": "model",
-    "created": 1775504271719,
-    "description": "GLM-5 is an open-source foundation model built for complex systems engineering and long-horizon agent workflows. It delivers production-grade productivity in large-scale programming tasks, with performance aligned with top closed-source models, and is designed for expert developers who think and build at the system level. Purpose-built for multi-stage, long-step complex tasks, GLM-5 autonomously decomposes system-level requirements with an architect-level approach while maintaining context coherence across automated workflows that run for hours.",
-    "owned_by": "Together AI",
-    "root": "glm-5-t",
-    "architecture": {
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "modality": "text->text"
-    },
-    "supported_features": [],
-    "supported_endpoints": [],
-    "pricing": {
-      "prompt": null,
-      "completion": null,
-      "image": null,
-      "request": "0.00",
-      "input_cache_read": null,
-      "input_cache_write": null
-    },
-    "context_window": null,
-    "context_length": null,
-    "metadata": {
-      "display_name": "GLM-5-T",
-      "image": {
-        "url": "https://qph.cf2.poecdn.net/main-thumb-pb-6925185-200-iksbaresyqgccjjvhkzgjgrbqyrusrrh.jpeg",
-        "alt": "GLM-5-T model icon",
-        "width": 200,
-        "height": 200
-      },
-      "url": "https://poe.com/glm-5-t"
-    },
-    "reasoning": null,
-    "parameters": [],
-    "updated_at": "2026-06-22T02:58:11.059741+00:00"
+    "updated_at": "2026-06-23T02:33:25.273656+00:00"
   },
   {
     "id": "pearl-gemma-4-31b",
@@ -304,7 +262,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-22T02:58:11.059801+00:00"
+    "updated_at": "2026-06-23T02:33:25.273705+00:00"
   },
   {
     "id": "qwen3.7-max-t",
@@ -346,7 +304,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-22T02:58:11.059803+00:00"
+    "updated_at": "2026-06-23T02:33:25.273707+00:00"
   },
   {
     "id": "minimax-m3-t",
@@ -388,6 +346,6 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-22T02:58:11.059807+00:00"
+    "updated_at": "2026-06-23T02:33:25.273710+00:00"
   }
 ]

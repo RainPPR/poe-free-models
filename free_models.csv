@@ -1,7 +1,6 @@
 name,id,provider,context_length
 Gemma-4-31B,gemma-4-31b,Google,262144
 Gemma-4-31B-T,gemma-4-31b-t,Together AI,
-GLM-5-T,glm-5-t,Together AI,
 GLM-5.1-T,glm-5.1-t,Together AI,
 Kimi-K2.5-FW,kimi-k2.5-fw,Fireworks AI,
 MiniMax-M3-T,minimax-m3-t,Together AI,

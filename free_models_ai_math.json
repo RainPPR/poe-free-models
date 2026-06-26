@@ -14,13 +14,6 @@
     "displayName": "Qwen3.5-397B-A17B-T (Poe)"
   },
   {
-    "id": "b590ac57-34f1-5b38-ada8-0cc97fd89fb0",
-    "modelId": "kimi-k2.5-fw",
-    "enableTools": true,
-    "disabledTools": [],
-    "displayName": "Kimi-K2.5-FW (Poe)"
-  },
-  {
     "id": "b657c5c4-ab39-5657-a244-37fac1b33a94",
     "modelId": "glm-5.1-t",
     "enableTools": false,

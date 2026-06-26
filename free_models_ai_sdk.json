@@ -13,14 +13,6 @@
       "gemma-4-31b-reasoning": {
         "name": "Gemma-4-31B Reasoning (Free)",
         "reasoning": true
-      },
-      "kimi-k2.5-fw": {
-        "name": "Kimi-K2.5-FW (Free)",
-        "reasoning": false
-      },
-      "kimi-k2.5-fw-reasoning": {
-        "name": "Kimi-K2.5-FW Reasoning (Free)",
-        "reasoning": true
       }
     }
   }

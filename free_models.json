@@ -49,7 +49,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-25T02:35:34.999973+00:00"
+    "updated_at": "2026-06-26T02:37:58.088967+00:00"
   },
   {
     "id": "qwen3.5-397b-a17b-t",
@@ -91,52 +91,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-25T02:35:34.999991+00:00"
-  },
-  {
-    "id": "kimi-k2.5-fw",
-    "object": "model",
-    "created": 1769497628504,
-    "description": "Kimi K2.5 is Moonshot AI's flagship agentic model and a new SOTA open model. It unifies vision and text, thinking and non-thinking modes, and single-agent and multi-agent execution into one model.",
-    "owned_by": "Fireworks AI",
-    "root": "kimi-k2.5-fw",
-    "architecture": {
-      "input_modalities": [
-        "text",
-        "image"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "modality": "text,image->text"
-    },
-    "supported_features": [
-      "tools"
-    ],
-    "supported_endpoints": [],
-    "pricing": {
-      "prompt": null,
-      "completion": null,
-      "image": null,
-      "request": "0.00",
-      "input_cache_read": null,
-      "input_cache_write": null
-    },
-    "context_window": null,
-    "context_length": null,
-    "metadata": {
-      "display_name": "Kimi-K2.5-FW",
-      "image": {
-        "url": "https://qph.cf2.poecdn.net/main-thumb-pb-6766647-200-ditdypjluzdoyjkyttbcvgvtaprmnqfz.jpeg",
-        "alt": "Kimi-K2.5-FW model icon",
-        "width": 200,
-        "height": 200
-      },
-      "url": "https://poe.com/kimi-k2.5-fw"
-    },
-    "reasoning": null,
-    "parameters": [],
-    "updated_at": "2026-06-25T02:35:34.999996+00:00"
+    "updated_at": "2026-06-26T02:37:58.088984+00:00"
   },
   {
     "id": "glm-5.1-t",
@@ -178,7 +133,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-25T02:35:35.000004+00:00"
+    "updated_at": "2026-06-26T02:37:58.088995+00:00"
   },
   {
     "id": "gemma-4-31b-t",
@@ -220,7 +175,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-25T02:35:35.000007+00:00"
+    "updated_at": "2026-06-26T02:37:58.088999+00:00"
   },
   {
     "id": "pearl-gemma-4-31b",
@@ -262,7 +217,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-25T02:35:35.000071+00:00"
+    "updated_at": "2026-06-26T02:37:58.089064+00:00"
   },
   {
     "id": "qwen3.7-max-t",
@@ -304,7 +259,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-25T02:35:35.000073+00:00"
+    "updated_at": "2026-06-26T02:37:58.089067+00:00"
   },
   {
     "id": "minimax-m3-t",
@@ -346,6 +301,6 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-25T02:35:35.000077+00:00"
+    "updated_at": "2026-06-26T02:37:58.089071+00:00"
   }
 ]

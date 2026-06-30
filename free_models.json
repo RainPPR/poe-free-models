@@ -49,49 +49,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-29T02:44:16.824833+00:00"
-  },
-  {
-    "id": "qwen3.5-397b-a17b-t",
-    "object": "model",
-    "created": 1771354710620,
-    "description": "Over recent months, we have intensified our focus on developing foundation models that deliver exceptional utility and performance. Qwen3.5 represents a significant leap forward, integrating breakthroughs in multimodal learning, architectural efficiency, reinforcement learning scale, and global accessibility to empower developers and enterprises with unprecedented capability and efficiency.\n\nQwen3.5 features the following enhancement:\n\nUnified Vision-Language Foundation: Early fusion training on multimodal tokens achieves cross-generational parity with Qwen3 and outperforms Qwen3-VL models across reasoning, coding, agents, and visual understanding benchmarks.\n\nEfficient Hybrid Architecture: Gated Delta Networks combined with sparse Mixture-of-Experts deliver high-throughput inference with minimal latency and cost overhead.\n\nScalable RL Generalization: Reinforcement learning scaled across million-agent environments with progressively complex task distributions for robust real-world adaptability.\n\nGlobal Linguistic Coverage: Expanded support to 201 languages and dialects, enabling inclusive, worldwide deployment with nuanced cultural and regional understanding.\n\nNext-Generation Training Infrastructure: Near-100% multimodal training efficiency compared to text-only training and asynchronous RL frameworks supporting massive-scale agent scaffolds and environment orchestration.",
-    "owned_by": "Together AI",
-    "root": "qwen3.5-397b-a17b-t",
-    "architecture": {
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "modality": "text->text"
-    },
-    "supported_features": [],
-    "supported_endpoints": [],
-    "pricing": {
-      "prompt": null,
-      "completion": null,
-      "image": null,
-      "request": "0.00",
-      "input_cache_read": null,
-      "input_cache_write": null
-    },
-    "context_window": null,
-    "context_length": null,
-    "metadata": {
-      "display_name": "Qwen3.5-397B-A17B-T",
-      "image": {
-        "url": "https://qph.cf2.poecdn.net/main-thumb-pb-6816075-200-pmjwiobbezofrhpxnsrsinlpjlfehspp.jpeg",
-        "alt": "Qwen3.5-397B-A17B-T model icon",
-        "width": 200,
-        "height": 200
-      },
-      "url": "https://poe.com/qwen3.5-397b-a17b-t"
-    },
-    "reasoning": null,
-    "parameters": [],
-    "updated_at": "2026-06-29T02:44:16.824851+00:00"
+    "updated_at": "2026-06-30T02:38:37.132892+00:00"
   },
   {
     "id": "glm-5.1-t",
@@ -133,7 +91,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-29T02:44:16.824862+00:00"
+    "updated_at": "2026-06-30T02:38:37.132921+00:00"
   },
   {
     "id": "gemma-4-31b-t",
@@ -175,7 +133,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-29T02:44:16.824866+00:00"
+    "updated_at": "2026-06-30T02:38:37.132927+00:00"
   },
   {
     "id": "pearl-gemma-4-31b",
@@ -217,7 +175,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-29T02:44:16.824929+00:00"
+    "updated_at": "2026-06-30T02:38:37.132995+00:00"
   },
   {
     "id": "qwen3.7-max-t",
@@ -259,7 +217,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-29T02:44:16.824932+00:00"
+    "updated_at": "2026-06-30T02:38:37.132998+00:00"
   },
   {
     "id": "minimax-m3-t",
@@ -301,6 +259,6 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-06-29T02:44:16.824936+00:00"
+    "updated_at": "2026-06-30T02:38:37.133002+00:00"
   }
 ]

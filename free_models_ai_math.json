@@ -7,13 +7,6 @@
     "displayName": "Gemma-4-31B (Poe)"
   },
   {
-    "id": "b657c5c4-ab39-5657-a244-37fac1b33a94",
-    "modelId": "glm-5.1-t",
-    "enableTools": false,
-    "disabledTools": [],
-    "displayName": "GLM-5.1-T (Poe)"
-  },
-  {
     "id": "77fc9549-28c8-5e64-994a-b20990ea22e0",
     "modelId": "gemma-4-31b-t",
     "enableTools": false,

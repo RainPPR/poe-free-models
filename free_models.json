@@ -49,49 +49,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-07-14T01:47:09.096976+00:00"
-  },
-  {
-    "id": "glm-5.1-t",
-    "object": "model",
-    "created": 1775682073807,
-    "description": "GLM-5.1 is Z.ai's next-generation flagship model for agentic engineering. It achieves state-of-the-art on SWE-Bench Pro and leads GLM-5 by a wide margin on NL2Repo and Terminal-Bench 2.0. The real breakthrough, though, is endurance. Previous models plateau early — they apply familiar techniques for quick gains, then stall. More time doesn't help. GLM-5.1 stays productive over far longer horizons, breaking down ambiguous problems, running experiments, reading results, and revising its strategy with real precision. Across hundreds of rounds and thousands of tool calls, it keeps optimizing. The longer it runs, the better the result.",
-    "owned_by": "Together AI",
-    "root": "glm-5.1-t",
-    "architecture": {
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "modality": "text->text"
-    },
-    "supported_features": [],
-    "supported_endpoints": [],
-    "pricing": {
-      "prompt": null,
-      "completion": null,
-      "image": null,
-      "request": "0.00",
-      "input_cache_read": null,
-      "input_cache_write": null
-    },
-    "context_window": null,
-    "context_length": null,
-    "metadata": {
-      "display_name": "GLM-5.1-T",
-      "image": {
-        "url": "https://qph.cf2.poecdn.net/main-thumb-pb-6928677-200-eguxuhpkqgoypnrtdyywoqxwmjarxsjo.jpeg",
-        "alt": "GLM-5.1-T model icon",
-        "width": 200,
-        "height": 200
-      },
-      "url": "https://poe.com/glm-5.1-t"
-    },
-    "reasoning": null,
-    "parameters": [],
-    "updated_at": "2026-07-14T01:47:09.097000+00:00"
+    "updated_at": "2026-07-15T01:43:32.929491+00:00"
   },
   {
     "id": "gemma-4-31b-t",
@@ -133,7 +91,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-07-14T01:47:09.097005+00:00"
+    "updated_at": "2026-07-15T01:43:32.929518+00:00"
   },
   {
     "id": "pearl-gemma-4-31b",
@@ -175,7 +133,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-07-14T01:47:09.097105+00:00"
+    "updated_at": "2026-07-15T01:43:32.929578+00:00"
   },
   {
     "id": "qwen3.7-max-t",
@@ -217,7 +175,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-07-14T01:47:09.097113+00:00"
+    "updated_at": "2026-07-15T01:43:32.929581+00:00"
   },
   {
     "id": "minimax-m3-t",
@@ -259,6 +217,6 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-07-14T01:47:09.097118+00:00"
+    "updated_at": "2026-07-15T01:43:32.929586+00:00"
   }
 ]

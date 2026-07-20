@@ -49,7 +49,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-07-19T01:56:13.033853+00:00"
+    "updated_at": "2026-07-20T02:12:25.477438+00:00"
   },
   {
     "id": "gemma-4-31b-t",
@@ -91,7 +91,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-07-19T01:56:13.033882+00:00"
+    "updated_at": "2026-07-20T02:12:25.477469+00:00"
   },
   {
     "id": "pearl-gemma-4-31b",
@@ -133,7 +133,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-07-19T01:56:13.033942+00:00"
+    "updated_at": "2026-07-20T02:12:25.477535+00:00"
   },
   {
     "id": "qwen3.7-max-t",
@@ -175,7 +175,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-07-19T01:56:13.033946+00:00"
+    "updated_at": "2026-07-20T02:12:25.477538+00:00"
   },
   {
     "id": "minimax-m3-t",
@@ -217,6 +217,6 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-07-19T01:56:13.033950+00:00"
+    "updated_at": "2026-07-20T02:12:25.477543+00:00"
   }
 ]

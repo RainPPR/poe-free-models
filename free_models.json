@@ -49,7 +49,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-07-21T01:55:38.172352+00:00"
+    "updated_at": "2026-07-22T01:54:19.633502+00:00"
   },
   {
     "id": "gemma-4-31b-t",
@@ -91,7 +91,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-07-21T01:55:38.172389+00:00"
+    "updated_at": "2026-07-22T01:54:19.633530+00:00"
   },
   {
     "id": "pearl-gemma-4-31b",
@@ -133,7 +133,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-07-21T01:55:38.172450+00:00"
+    "updated_at": "2026-07-22T01:54:19.633590+00:00"
   },
   {
     "id": "qwen3.7-max-t",
@@ -175,48 +175,6 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-07-21T01:55:38.172474+00:00"
-  },
-  {
-    "id": "minimax-m3-t",
-    "object": "model",
-    "created": 1781327730087,
-    "description": "MiniMax M3 is MiniMax's frontier open-weight model combining coding and agentic capability, 1M token context, and native multimodality in a single checkpoint — the first open-weight model to bring all three together. It introduces MSA (MiniMax Sparse Attention), a new sparse attention architecture that reduces per-token compute to 1/20 of the previous generation at 1M context, delivering 9x prefilling and 15x decoding speedups. The model is natively multimodal from training step 0, supporting image and video input and computer use, with a toggleable thinking mode. It scores 59.0% on SWE-Bench Pro and 66.0% on Terminal-Bench 2.1, and is available on Together AI with a 1M token context window.",
-    "owned_by": "Together AI",
-    "root": "minimax-m3-t",
-    "architecture": {
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "modality": "text->text"
-    },
-    "supported_features": [],
-    "supported_endpoints": [],
-    "pricing": {
-      "prompt": null,
-      "completion": null,
-      "image": null,
-      "request": "0.00",
-      "input_cache_read": null,
-      "input_cache_write": null
-    },
-    "context_window": null,
-    "context_length": null,
-    "metadata": {
-      "display_name": "MiniMax-M3-T",
-      "image": {
-        "url": "https://qph.cf2.poecdn.net/main-thumb-pb-7026935-200-bgbtuxyfetomqxwncwaijhcqafrddkdw.jpeg",
-        "alt": "MiniMax-M3-T model icon",
-        "width": 200,
-        "height": 200
-      },
-      "url": "https://poe.com/minimax-m3-t"
-    },
-    "reasoning": null,
-    "parameters": [],
-    "updated_at": "2026-07-21T01:55:38.172478+00:00"
+    "updated_at": "2026-07-22T01:54:19.633593+00:00"
   }
 ]

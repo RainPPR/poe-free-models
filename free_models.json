@@ -49,7 +49,7 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-07-27T02:08:41.205384+00:00"
+    "updated_at": "2026-07-28T01:49:55.308894+00:00"
   },
   {
     "id": "gemma-4-31b-t",
@@ -91,90 +91,6 @@
     },
     "reasoning": null,
     "parameters": [],
-    "updated_at": "2026-07-27T02:08:41.205413+00:00"
-  },
-  {
-    "id": "pearl-gemma-4-31b",
-    "object": "model",
-    "created": 1778889155234,
-    "description": "Gemma 4 31B-it-Pearl is Pearl Research Labs' instruction-tuned checkpoint of Google's Gemma 4 31B, optimized for the Pearl Network's Proof of Useful Work protocol. It delivers capabilities similar tothe base Gemma 4 31B — text input, 256K context, function calling, JSON mode — at a 25%+ discount through Together AI's exclusive Pearl Network integration.",
-    "owned_by": "Together AI",
-    "root": "pearl-gemma-4-31b",
-    "architecture": {
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "modality": "text->text"
-    },
-    "supported_features": [],
-    "supported_endpoints": [],
-    "pricing": {
-      "prompt": null,
-      "completion": null,
-      "image": null,
-      "request": "0.00",
-      "input_cache_read": null,
-      "input_cache_write": null
-    },
-    "context_window": null,
-    "context_length": null,
-    "metadata": {
-      "display_name": "Pearl-Gemma-4-31B",
-      "image": {
-        "url": "https://qph.cf2.poecdn.net/main-thumb-pb-6990303-200-axbeeygswaogszbvkphvineotwgoqtew.jpeg",
-        "alt": "Pearl-Gemma-4-31B model icon",
-        "width": 200,
-        "height": 200
-      },
-      "url": "https://poe.com/pearl-gemma-4-31b"
-    },
-    "reasoning": null,
-    "parameters": [],
-    "updated_at": "2026-07-27T02:08:41.205464+00:00"
-  },
-  {
-    "id": "qwen3.7-max-t",
-    "object": "model",
-    "created": 1779410478256,
-    "description": "Qwen3.7-Max is Qwen's flagship proprietary model built for the agent era, combining frontier reasoning with deep, generalizable agentic capabilities across coding, office automation, and long-horizon task execution. It leads on Terminal-Bench 2.0-Terminus (69.7) and achieves 92.4% GPQA Diamond, 80.4% SWE-Bench Verified, and 97.1% HMMT 2026 Feb. According to Qwen, the model maintained coherent execution across a ~35-hour autonomous session, generalizing across agent scaffolds without framework-specific tuning. Available on Together AI with a 1M token context window.",
-    "owned_by": "Together AI",
-    "root": "qwen3.7-max-t",
-    "architecture": {
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "modality": "text->text"
-    },
-    "supported_features": [],
-    "supported_endpoints": [],
-    "pricing": {
-      "prompt": null,
-      "completion": null,
-      "image": null,
-      "request": "0.00",
-      "input_cache_read": null,
-      "input_cache_write": null
-    },
-    "context_window": null,
-    "context_length": null,
-    "metadata": {
-      "display_name": "Qwen3.7-Max-T",
-      "image": {
-        "url": "https://qph.cf2.poecdn.net/main-thumb-pb-6998471-200-yztdnhyvsolsmethtshlfnkngajwpwdr.jpeg",
-        "alt": "Qwen3.7-Max-T model icon",
-        "width": 200,
-        "height": 200
-      },
-      "url": "https://poe.com/qwen3.7-max-t"
-    },
-    "reasoning": null,
-    "parameters": [],
-    "updated_at": "2026-07-27T02:08:41.205466+00:00"
+    "updated_at": "2026-07-28T01:49:55.308924+00:00"
   }
 ]

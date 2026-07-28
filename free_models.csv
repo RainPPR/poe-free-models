@@ -1,5 +1,3 @@
 name,id,provider,context_length
 Gemma-4-31B,gemma-4-31b,Google,262144
 Gemma-4-31B-T,gemma-4-31b-t,Together AI,
-Pearl-Gemma-4-31B,pearl-gemma-4-31b,Together AI,
-Qwen3.7-Max-T,qwen3.7-max-t,Together AI,

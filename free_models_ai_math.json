@@ -12,19 +12,5 @@
     "enableTools": false,
     "disabledTools": [],
     "displayName": "Gemma-4-31B-T (Poe)"
-  },
-  {
-    "id": "d9a87420-108a-5121-8ed2-bad9d75f6d9a",
-    "modelId": "pearl-gemma-4-31b",
-    "enableTools": false,
-    "disabledTools": [],
-    "displayName": "Pearl-Gemma-4-31B (Poe)"
-  },
-  {
-    "id": "b6b755ec-18e5-5aaf-b354-c6a18fea0f49",
-    "modelId": "qwen3.7-max-t",
-    "enableTools": false,
-    "disabledTools": [],
-    "displayName": "Qwen3.7-Max-T (Poe)"
   }
 ]

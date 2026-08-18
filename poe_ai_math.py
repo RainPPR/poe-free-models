@@ -40,7 +40,7 @@ def has_text_modalities(architecture: dict | None) -> bool:
 
 
 def is_strictly_free(pricing: dict | None) -> bool:
-    """检查价格是否严格为 0（原有初始规则）。"""
+    """检查价格是否严格为 0（免费）。"""
     if pricing is None or not isinstance(pricing, dict):
         return False
 
@@ -58,64 +58,9 @@ def is_strictly_free(pricing: dict | None) -> bool:
     return has_any_price
 
 
-def is_free_pricing_dict(pricing: dict | None) -> bool:
-    """检查 pricing 字典中除 image 外的所有字段是否均为 0、'0.00...' 或 null。"""
-    if pricing is None or not isinstance(pricing, dict):
-        return False
-
-    for key, value in pricing.items():
-        if key == "image":
-            continue
-        if value is None:
-            continue
-        try:
-            if float(value) != 0.0:
-                return False
-        except (ValueError, TypeError):
-            return False
-
-    return True
-
-
-def has_allowed_parameters_for_el(model: dict) -> bool:
-    """检查 -el 模型支持的 parameters 是否仅包含 enable_thinking 和 reasoning_effort（或无其他额外参数）。"""
-    allowed_param_names = {"enable_thinking", "reasoning_effort"}
-    parameters = model.get("parameters") or []
-    if not isinstance(parameters, list):
-        return True
-
-    for param in parameters:
-        if isinstance(param, dict):
-            name = param.get("name")
-            if name not in allowed_param_names:
-                return False
-
-    return True
-
-
 def is_free_model(model: dict) -> bool:
-    """判断模型是否符合免费模型条件：
-    1. architecture 的 input_modalities 和 output_modalities 都包含 text
-    2. 满足以下条件之一：
-       - 最开始的 strictly free 规则（pricing 中有非 null 价格且全为 0，如 gemma-4-31b 等）
-       - id 以 -el / -EL 结尾的模型，且 pricing 免费（pricing 为 None，或 pricing 字典中除 image 外全为 0/null），且 parameters 仅可能包含 enable_thinking / reasoning_effort（如 qwen3.8-27b-el, muse-glimmer-30b-el 等）
-    """
-    if not has_text_modalities(model.get("architecture")):
-        return False
-
-    pricing = model.get("pricing")
-    model_id = model.get("id", "")
-    is_el = model_id.lower().endswith("-el")
-
-    # 条件1：最开始的 strictly free 规则
-    if is_strictly_free(pricing):
-        return True
-
-    # 条件2：-el / -EL 结尾，pricing 免费且参数仅限 enable_thinking / reasoning_effort
-    if is_el and (pricing is None or is_free_pricing_dict(pricing)) and has_allowed_parameters_for_el(model):
-        return True
-
-    return False
+    """判断模型是否符合免费模型条件（价格严格为 0）。"""
+    return is_strictly_free(model.get("pricing"))
 
 
 def extract_reasoning_effort(model: dict) -> str | None:

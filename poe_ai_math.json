@@ -8,17 +8,5 @@
     "id": "77fc9549-28c8-5e64-994a-b20990ea22e0",
     "modelId": "gemma-4-31b-t",
     "displayName": "Gemma-4-31B-T (Poe)"
-  },
-  {
-    "id": "63d76a81-e92b-53d4-94e3-0cdf62937bcd",
-    "modelId": "muse-glimmer-30b-el",
-    "displayName": "Muse-Glimmer-30B-EL (Poe)",
-    "reasoningEffort": "max"
-  },
-  {
-    "id": "7a870b20-b54a-5ebc-928e-e28acdda41fc",
-    "modelId": "qwen3.8-27b-el",
-    "displayName": "Qwen3.8-27B-EL (Poe)",
-    "reasoningEffort": "xhigh"
   }
 ]

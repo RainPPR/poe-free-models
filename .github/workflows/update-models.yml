@@ -24,26 +24,17 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
-      - name: Fetch free models
-        run: uv run python main.py
-
-      - name: Generate CSV
-        run: uv run python json_to_csv.py
-
-      - name: Generate AI SDK config
-        run: uv run python generate_ai_sdk_config.py
-
-      - name: Generate AI Math config
-        run: uv run python generate_ai_math_config.py
+      - name: Generate Poe AI Math config
+        run: uv run python poe_ai_math.py
 
       - name: Check for changes and commit
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add free_models.json free_models.csv free_models_ai_sdk.json free_models_ai_math.json
+          git add poe_ai_math.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: update free models list [$(date -u +%Y-%m-%d)]"
+            git commit -m "chore: update poe ai math models [$(date -u +%Y-%m-%d)]"
             git push
           fi
